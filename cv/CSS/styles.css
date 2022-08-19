@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:wght@200&display=swap');
+
+@font-face{
+    font-family: mifuente;
+    src: url(../fonts/gemini_moon/Gemini\ Moon.otf);
+
+    
+}
+
+h1{
+    text-align: center;
+    font-family: mifuente;
+    color: black;
+}
+
+.header{
+    background-image: url(../img/trabajo.jpg);
+    background-size: cover;
+}
+
+.foto{
+    width: 300px;
+    margin: auto;
+    display: block;
+    
+}   
+
+header a{
+    color: red;
+    text-align: center;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    
+    border: 5px black solid;
+}
+
+i{
+    color: black;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'DynaPuff', cursive;
+}
+   
