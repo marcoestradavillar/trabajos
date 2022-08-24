@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+header p{
+    background-color: #1CD1B0;
+    width: 1024px;
+    height: 38px;
+    padding-top: 10px;
+    padding-left: 27px;
+    
+    
+    
+}
+
+header h1{
+    background-color: #00669F;
+    width: 1024px;
+    height: 101px;
+    padding-top: 28px;
+    padding-left: 28px;
+}
