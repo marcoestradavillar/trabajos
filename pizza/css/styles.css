@@ -1,4 +1,5 @@
 header{
+<<<<<<< HEAD
     background-color: black;
     width: 1024px;
     height: 100px;
@@ -21,3 +22,107 @@ h1{
 
 
 
+=======
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    width: 1024px;
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+}
+
+header nav a{
+    color: white;
+    padding: 40px 20px 0px 0px;
+    font-style: arial;
+    text-decoration: none;
+}
+
+h2{
+    color: red;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+
+.blanco{
+    color: white;
+    font-weight: bold;
+}
+
+.fondo{
+    background-image: url('../img/delivery.jpg');
+    width: 470px;
+    height: 350px;  
+    border-radius: 10px;
+    position: relative;
+    top: 27px;
+}
+
+.top5{
+    background-color: #FFFFFF;
+    width: 470px;
+    height: 350px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    top: 27px;
+   
+
+}
+
+h3{
+    font-size: 24px;
+    color: #FC200C;
+    position: relative;
+    left: 20px;
+    
+    
+}
+
+h4{
+    font-size: 20px;
+}
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1024px;
+    height: 420px;
+    background-color: antiquewhite;
+}
+
+.cayendo{
+    width: 92px;
+    height: 129px;
+}
+
+footer{
+    background-color: #222222;
+    width: 1024px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    color: white;
+    list-style-type: none;
+   
+}
+
+footer img{
+    width: 212px;
+    height: 80px;
+    padding-right: 25px;
+}
+>>>>>>> 6ebf7d13c715c5877e6986c1e3621fef6ed1d8e2
