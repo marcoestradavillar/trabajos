@@ -3,11 +3,12 @@
 * {
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
-    
-    
+   
 }
 
-
+html{
+    font-size: 16px;
+}
 
 header{
     width: 100%;
@@ -17,12 +18,13 @@ header{
     max-width: 1440px;
     height: 20vh;
     align-items: center;
+    width: 100%;
     
 }
 
 header nav a{
     text-decoration: none;
-    color:  #242E52;
+    color: rgba(36, 46, 82, 1);
     
 }
 
@@ -33,13 +35,92 @@ header nav a{
     height: 44px;
     color: rgb(255, 255, 255);
     border: none;
+    cursor: pointer;
     
 }
 
 header nav a:hover{
-    color: rgba(36, 46, 82, 0.6)
-
+    color: rgba(36, 46, 82, 0.6);
 }
+
+.boton1:hover{
+    background-color:rgba(139, 72, 191, 0.9);
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+}
+
+h1{
+        font-size: 3.625rem;
+        color: rgba(35, 44, 80, 1);
+}
+
+.section1 p{
+    font-size: 1.035rem;
+}
+
+.section1 button{
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.section1 button:hover{
+    background-color:rgba(139, 72, 191, 0.9);
+    color: rgba(0, 0, 0, 0.8)
+}
+
+
+.bring{
+    width: 35vw;
+}
+
+.section1 img{
+    font-size: 100px;
+    
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+h2{
+    font-size: 2.25rem;
+    color: rgba(35, 44, 80, 1);
+}
+
+.p1{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.section2 li{
+    color: rgba(50, 56, 81, 1);
+    font-weight: bold;
+    
+}
+
+.section2 ol{
+    list-style-type: none;
+   
+}
+
+.section2 div ol p{
+    color: rgba(179, 178, 183, 1);
+}
+
 
 
 
