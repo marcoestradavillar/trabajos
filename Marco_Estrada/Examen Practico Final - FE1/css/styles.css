@@ -20,8 +20,8 @@ header{
     height: 20vh;
     align-items: center;
     
-    
 }
+
 
 header nav a{
     text-decoration: none;
@@ -39,6 +39,11 @@ header nav a{
     cursor: pointer;
     
 }
+
+header .barra{
+    display: none;
+}
+
 
 header nav a:hover{
     color: rgba(36, 46, 82, 0.6);
@@ -65,6 +70,7 @@ h1{
 .section1 p{
     font-size: 1.035rem;
 }
+
 
 .section1 button{
     background-color: #8B48BF;
@@ -272,8 +278,9 @@ footer li{
     justify-content: space-around;
 }
 
-footer .logos img{
+footer .logos i{
     margin: 5px;
+    font-size: 20px;
 }
 
 footer p{
@@ -307,6 +314,10 @@ footer form input{
     border-radius: 50px;
     height: 44px;
     width: 201px;
+}
+
+footer i{
+    color: white;
 }
 
 @media (max-width: 1248px){
@@ -347,8 +358,65 @@ footer form input{
 
 }
 
-@media (max-width: 800px){
+@media (max-width: 480px){
 
+    header .barra{
+        display: unset;
+    }
+
+    header button{
+
+        display: none;
+    }
+
+    header nav{
+
+        display: none;
+    }
+
+    header{
+
+        justify-content: space-between;
+        width: 100vw;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 30px;
+        
+    }
+
+    header .barra{
+
+        width: 46.88px;
+        height: 41.25px;
+    }
+
+    
+    .section1 img{
+
+        order: -1 ;
+        width: 100%;
+        margin: 0%;
+        margin-left: 50px;
+
+    }
+
+    .section1 .bring{
+
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 80px;
+       
+        
+    }
+
+   
+
+
+   }
+
+
+
+      
 }
 
 
