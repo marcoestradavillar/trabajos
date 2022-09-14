@@ -11,6 +11,12 @@ html{
     font-size: 16px;
 }
 
+body{
+
+    margin: 0;
+    padding: 0;
+   }
+
 p{
 
 line-height: 25px;
@@ -64,7 +70,7 @@ header nav a:hover{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 15vh;
     width: 100vw;
     max-width: 1440px;
     
@@ -74,12 +80,12 @@ header nav a:hover{
 h1{
         font-size: 3.625rem;
         color: rgba(35, 44, 80, 1);
-        margin-left: 30px;
+        margin-left: 50px;
 }
 
 .section1 p{
     font-size: 1.035rem;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 
@@ -91,13 +97,14 @@ h1{
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
-    margin-left: 30px;
+    margin-left: 50px;
     
 }
 
 .section1 img{
 
-    margin-right: 30px;
+    margin-right: 40px;
+    width: 35%;
 }
 
 .section1 button:hover{
@@ -105,76 +112,91 @@ h1{
     color: rgba(255, 255, 255, 1)
 }
 
-
-
 .section2{
+
     display: flex;
     justify-content: space-around;
-    margin-top: 10vh;
+    flex-wrap: wrap;
     width: 100vw;
-    max-width: 1440px;
-    
+    margin-top: 15vh;
 }
 
-h2{
+.section2 .whats{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section2 h2{
+
     font-size: 2.25rem;
-    color: rgba(35, 44, 80, 1);
+    color: rgba(35, 40, 81, 1);
 }
 
-.p1{
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 1em;
+.whats p{
+
+    color: rgba(0, 0, 0, 1)
 }
 
-.li1{
-    display: flex;
-    position: relative;
-}
+.section2 h5{
 
-.li2{
-    display: flex;
-    position: relative;
-}
-
-.li3{
-    display: flex;
-    position: relative;
-}
-
-ol button{
-    background-color: #8B48BF;
-    border-radius: 50px;
-    width: 69px;
-    height: 43px;
-    color: rgb(255, 255, 255);
-    border: none;
-    position: absolute;
-    left: -90px;
-    
-    
-   
-}
-.section2 li{
     color: rgba(50, 56, 81, 1);
-    font-weight: bold;
-    
-    
 }
 
-.section2 ol{
-    list-style-type: none;
-   
-}
+.section2 .caja p{
 
-.section2 div ol p{
     color: rgba(179, 178, 183, 1);
 }
+
+.parrafos{
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: left;
+    
+    max-width: 1440px;
+    margin-right: 30px;
+    
+}
+.parrafos p{
+    margin-left: 70px;
+    width: 32vw;
+    
+}
+
+.parrafos br{
+    display: none;
+}
+.parrafos h5{
+
+    display: inline-block;
+    
+}
+
+.parrafos span{
+
+    border-radius: 30px;
+    background-color: #8B48BF;
+    padding: 10px 25px;
+    margin-right: 10px;
+    color: white;
+    font-size: 1em;
+    
+
+}
+
+
+
+
 
 .section3{
     width: 90vw;
     margin-left: 50px;
     max-width: 1440px;
-    
+    margin-top: 15vh;
     
     
 }
@@ -385,10 +407,16 @@ footer i{
 
 @media (max-width: 480px){
 
-   
+   body{
+
+    margin: 0;
+    padding: 0;
+   }
 
     header .barra{
         display: unset;
+        cursor: pointer;
+
     }
 
     header button{
@@ -407,8 +435,9 @@ footer i{
         width: 100vw;
         padding-left: 25px;
         padding-right: 25px;
-        margin-left: 30px;
+        margin: auto;
         height: 15vh;
+        
         
     }
 
@@ -418,61 +447,89 @@ footer i{
         height: 41.25px;
     }
 
-    
+    main{
+        margin-top: -200px;
+    }
     .section1 img{
 
         order: -1 ;
         width: 100%;
         margin: 0%;
-        margin-left: 50px;
-        margin-top: 90px;
-        width: 100%;
+        margin-top: 80px;
+        width: 90%;
     }
 
     
     .section1 .bring{
 
         text-align: center;
-        margin-left: 50px;
+        padding-right: 40px;
         margin-top: 80px;
        
     }
 
-    ol button{
-        display: ;
+    .section1 p{
+
+        padding: 20px;
     }
 
-    .section2 .whats{
+  
 
-        margin-left: 30px;
-        text-align: center;
-    }
+    .section1 .bring br{
 
-    ol{
-        margin-right: 30px;    
-    }
-
-    .section2{
-        flex-wrap: wrap;
-    }
-
-    ol{
-        margin-top: 50px;
-        
+        display: none
     }
 
     
 
-    .section2 br{
+    .section2{
 
-        display: none;
-    }
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        
+            
+        }
+    
+        .section2 .whats{
+    
+            text-align: center;
+            margin-top: -70px;
+            align-items: center;
+        }
+    
+        .parrafos p{
+            margin-left: 0px;
+            width: 80vw;
+            
+        }
+    
+        .parrafos{
+    
+            margin: 0%;
+            margin-top: 90px;
+        }
+        .section2 .prueba{
+
+            display: flex;
+            background-color: rgba(139, 72, 191, 0.3);
+            justify-content: flex-start;
+        }
+    
+        .section2 .prueba span{
+           width: 69px;
+           height: 43px;
+           margin-top: 9px;
+           text-align: center;
+        }
+    
+    
     
 
     footer{
         width: 100vw;
         flex-direction: column;
-        height: 85vh;
+        height: 50vh;
         align-items: center;
         justify-content: center;
         
@@ -532,16 +589,16 @@ footer i{
     }
 
 
+    .section3{
+
+        margin: auto;
+    }
+
+    .section4{
+
+        margin: auto;
+    }
   
-
-
-
-    
-
-    
-
-
-
    
 
 
