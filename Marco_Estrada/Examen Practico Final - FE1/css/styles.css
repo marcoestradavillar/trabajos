@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
-   
+    
      
 }
 
@@ -23,7 +23,7 @@ line-height: 25px;
 }   
 
 header{
-    width: 100vw;
+    
     background-color:white;
     display: flex;
     justify-content: space-around;
@@ -71,7 +71,6 @@ header nav a:hover{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 15vh;
-    width: 100vw;
     max-width: 1440px;
     
     
@@ -80,12 +79,12 @@ header nav a:hover{
 h1{
         font-size: 3.625rem;
         color: rgba(35, 44, 80, 1);
-        margin-left: 50px;
+        
 }
 
 .section1 p{
     font-size: 1.035rem;
-    margin-left: 50px;
+    
 }
 
 
@@ -97,13 +96,12 @@ h1{
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
-    margin-left: 50px;
+    
     
 }
 
 .section1 img{
 
-    margin-right: 40px;
     width: 35%;
 }
 
@@ -117,8 +115,8 @@ h1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 100vw;
     margin-top: 15vh;
+    max-width: 1440px;
 }
 
 .section2 .whats{
@@ -158,7 +156,7 @@ h1{
     text-align: left;
     
     max-width: 1440px;
-    margin-right: 30px;
+    
     
 }
 .parrafos p{
@@ -190,13 +188,14 @@ h1{
 
 
 
-
-
 .section3{
-    width: 90vw;
-    margin-left: 50px;
+    
     max-width: 1440px;
     margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     
     
 }
@@ -210,6 +209,8 @@ h1{
 .cartas{
     display: flex;
     justify-content: center;
+    width: 90%;
+
 }
 
 .botoncartas{
@@ -229,15 +230,18 @@ h1{
     background-color: rgba(250, 250, 250, 1);
     text-align: center;
     padding: 20px;
-    padding-top: 50px;
+    
     
 
 }
 
-.imgcentro{
+
+
+.section3 .anisha, .alina, .richard{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .section3 img{
@@ -269,12 +273,11 @@ h1{
 
 .section4{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgba(139, 72, 191, 1);
     align-items: center;
-    height: 20vh;
+    height: 30vh;
     margin-top: 150px;
-    width: 100vw;
     max-width: 1440px;
     
     
@@ -284,7 +287,8 @@ h1{
 
 .section4 h2{
     color: white;
-    margin-left: 7%;
+    font-size: 2.5rem;
+    margin-right: 490px;
     
 }
 
@@ -296,7 +300,7 @@ h1{
     color: rgba(139, 72, 191, 1);
     border: none;
     cursor: pointer;
-    margin-right: 7%;
+    
 }
 
 .section4 button:active{
@@ -305,16 +309,14 @@ h1{
 
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgba(30, 30, 38, 1);
-    height: 20vh;
+    height: 30vh;
     color: white;
-    width: 100vw;
     align-items: center;
     max-width: 1440px;
     
-    
-    
+   
     
 }
 
@@ -329,15 +331,16 @@ footer li{
     justify-content: space-around;
     padding-top: 20px;
     margin-bottom: 20px;
-    margin-left: 7%;
     height: 80%;
+    align-items: center;
     
 
 }
 
 footer .logos i{
-    margin: 5px;
+    
     font-size: 20px;
+    margin: 6px;
 }
 
 footer p{
@@ -350,7 +353,6 @@ footer p{
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    margin-right: 7%;
     height: 80%;
 }
 
@@ -359,7 +361,6 @@ footer .listas{
     display: flex;
     width: 30%;
     justify-content: space-between;
-    margin-right: 20px;
     
 }
 
@@ -407,11 +408,7 @@ footer i{
 
 @media (max-width: 480px){
 
-   body{
-
-    margin: 0;
-    padding: 0;
-   }
+   
 
     header .barra{
         display: unset;
@@ -435,8 +432,7 @@ footer i{
         width: 100vw;
         padding-left: 25px;
         padding-right: 25px;
-        margin: auto;
-        height: 15vh;
+        height: 25vh;
         
         
     }
@@ -448,13 +444,12 @@ footer i{
     }
 
     main{
-        margin-top: -200px;
+        margin-top: -150px;
     }
     .section1 img{
 
         order: -1 ;
         width: 100%;
-        margin: 0%;
         margin-top: 80px;
         width: 90%;
     }
@@ -464,13 +459,30 @@ footer i{
 
         text-align: center;
         padding-right: 40px;
-        margin-top: 80px;
+        margin-top: 50px;
+        margin: 0;
+        padding: 0;
+       
+       
+    }
+
+    .section1 .bring h1{
+
+       margin: 50px;
        
     }
 
     .section1 p{
 
-        padding: 20px;
+        padding: ;
+        margin-right: 30px;
+        margin-left: 30px;
+        
+    }
+
+    .section1 .bring button{
+
+        margin-top: 10px;
     }
 
   
@@ -506,7 +518,7 @@ footer i{
     
         .parrafos{
     
-            margin: 0%;
+            
             margin-top: 90px;
         }
         .section2 .prueba{
@@ -523,17 +535,47 @@ footer i{
            text-align: center;
         }
     
+        .section3{
+
+            margin: auto;
+        }
+
+        .section3 .anisha{
+
+            display: none;
+        }
+
+        .section3 .richard{
+
+            display: none;
+        }
     
-    
+
+        .section4{
+
+            margin: auto;
+            height: 50vh;
+            margin-top: 10vh;
+            flex-direction: column;
+        }
+
+        .section4 h2{
+
+            margin: 0;
+            text-align: center;
+        }
+
+        
+
 
     footer{
         width: 100vw;
         flex-direction: column;
-        height: 50vh;
+        height: 100vh;
         align-items: center;
-        justify-content: center;
         
-
+        
+        
         
     }
 
@@ -542,15 +584,19 @@ footer i{
         display: flex;
         align-items: center;
         
+        
+        
     }
 
     .footer1 img{
 
         order: 0;
+        
     }
 
     .footer1 .logos{
         order: -1;
+        
     }
 
     
@@ -563,6 +609,7 @@ footer i{
 
     footer p{
         display: none;
+       
     
     }
 
@@ -576,11 +623,15 @@ footer i{
 
         order: 0;
         width: 80%;
+        align-items: center;
+        
+        
     }
 
     footer .footer1{
 
         order: 1;
+        margin: 0%;
     }
 
     .footer1 i{
@@ -588,16 +639,30 @@ footer i{
         padding: 20px;
     }
 
+    footer form input{
 
-    .section3{
-
-        margin: auto;
+        width: 308px;
     }
 
-    .section4{
+    footer .formulario{
 
-        margin: auto;
+        margin: 0%;
     }
+
+    .listas ul{
+
+        margin: 0%;
+        padding: 0%;
+    }
+
+    footer p{
+
+        margin-bottom: 30px;
+    }
+
+    
+
+    
   
    
 
